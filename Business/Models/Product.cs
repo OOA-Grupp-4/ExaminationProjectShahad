@@ -13,5 +13,8 @@
         public List<string> Images { get; set; } = [];
 
         public string? StockStatus { get; set; } = null!;
+
+        public bool IsPurchased { get; set; }
+
     }
 }
